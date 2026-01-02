@@ -218,7 +218,7 @@ export async function generateWeeklyCanvas(
 
         if (dish.data.description) {
             const plainDesc = extractPlainText(dish.data.description);
-            wrapText(ctx, plainDesc, textX, textY + 135, maxTextWidth, 24, 2);
+            wrapText(ctx, plainDesc, textX, textY + 105, maxTextWidth, 24, 2);
         }
     }
 
